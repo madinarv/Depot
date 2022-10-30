@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 7rem;
+   
+}
+body {
+    font-family: Catamaran, sans-serif;
+    font-weight: 300;
+}
+.navbar-home .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.navbar-home .left a{
+    color: black;
+}
+.navbar-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-all{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.logo img{
+    width: 50%;
+}
+.navbar-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+    cursor: pointer;
+}
+.navbar-card p{
+    color: grey;
+}
+
+main .container .contemporary {
+    background-color: #E3E3E3;
+    position: relative;
+}
+
+main {
+    margin: 2rem auto;
+}
+
+main .container .contemporary .left {
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+main .container .contemporary .left p {
+    color: #080808;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+main .container .contemporary .left span {
+    font-size: 20px;
+    color: #A1A09F;
+}
+
+main .container .contemporary .right img {
+    margin-left: 46rem;
+    position: relative;
+}
+
+main .container .product {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .container .product .select a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem 1rem;
+    filter: opacity(1);
+    transition: 0.3s;
+}
+
+main .container .product .select a:hover {
+    filter: opacity(0.5);
+}
+
+.container .prodinfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .prodinfo .card {
+    width: 24%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.container .prodinfo .card img {
+    width: 100%;
+}
+
+.container .prodinfo .card .info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Catamaran, sans-serif;
+    color: #000000;
+}
+
+.container .prodinfo .card .info p {
+    color: #A1A09F;
+}
+
+.container .prodinfo .card .info {
+    margin: 18px auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.container .media {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+.container .media .service{
+margin-right: 10rem;
+}
+.container .media .service a{
+    text-decoration: none;
+    color: #A1A09F;
+    line-height: 27px;   
+}
+.container .media .service  h3{
+    margin: 10px auto;
+}
+
+hr{
+    border: none;
+    background-color:#d7d5d3;
+    height: 0.09px;    
+}
+footer .lastpart {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    align-items: baseline;
+}
+footer .lastpart a{
+    text-decoration: none;
+    color: #A1A09F;
+    font-size: 10px;
+}
+footer .lastpart .follow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .lastpart .follow-us h6{
+    color: #A1A09F;
+    margin-right: 1rem;
+    align-items: center;
+   
+}
+footer .lastpart .icons i{
+    color: #000000;
+    font-size: 18px;    
+    align-items: center;
+    margin-right: 1rem;
+}
+.sticky-icon{
+    width: 2.3%;
+    box-shadow: 10px 0px 13px 2px darkgrey;
+    position: fixed;
+    right: 0rem;
+    bottom: 20rem;
+}
+.sticky-icon i:nth-child(1) {
+    color: #ffffff;
+    background-color: red;
+    padding: 9px;
+   font-weight: bold;
+}
+.sticky-icon i:nth-child(2) {
+    color: red;
+    background-color: white;
+    padding: 9px;
+    font-weight: bold;
+}
+
+
